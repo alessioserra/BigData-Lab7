@@ -37,6 +37,7 @@ registersFilteredRDD = registerRDDnoHeader.filter(discardLines)
 Write an application that:
 1) Computes the criticality value for each pair (Si,Tj).'''
 
+#???
 # Map the registers in this way:
 # KEY -> Tj = (dayOfWeek, hourOfDay)
 # VALUE -> number of free slots in that Tj
